@@ -15,13 +15,8 @@ public class Employee{
   //Getters & Setters for all the private attributes
 }
 
----?color=#333
-@code[Java zoom-9](assets/Java/Java.java)
+---?code=assets/Java/Java.java&lang=java
 
-@[1-4]
-@[5-7]
-@[9-10]
-@[1-13]
 ---
 public class HRPromotions{
   public boolean isPromotionDueThisYear(Employee emp){
