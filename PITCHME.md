@@ -1,7 +1,7 @@
 
 ## S-O-L-I-D
 ---
-@ul[list-less-items]
+@ul[list-many-items]
 -S-Single Responsibility
 -O-Open-close
 -L-Liskov substitution principle
@@ -13,7 +13,6 @@
 ---?code=assets/Java/03-FinITCalculations.java&lang=java
 ---?code=assets/Java/04-EmployeeClean.java&lang=java
 
----
 @title[Customize Slide Layout]
 
 @snap[west span-50]
