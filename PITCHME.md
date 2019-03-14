@@ -1,42 +1,18 @@
 
-## Add Some Slide Candy
-
-public class Employee{
-  private String employeeId;
-  private String name;
-  private string address; 
-  private Date dateOfJoining;
-  public boolean isPromotionDueThisYear(){
-    //promotion logic implementation
-  }
-  public Double calcIncomeTaxForCurrentYear(){
-    //income tax logic implementation
-  }
-  //Getters & Setters for all the private attributes
-}
-
----?code=assets/Java/Java.java&lang=java
-
+## S-O-L-I-D
 ---
-public class HRPromotions{
-  public boolean isPromotionDueThisYear(Employee emp){
-    //promotion logic implementation using the employee information passed
-  }
-}
----
-public class FinITCalculations{
-  public Double calcIncomeTaxForCurrentYear(Employee emp){
-    //income tax logic implementation using the employee information passed
-  }
-}
----
-public class Employee{ 
-  private String employeeId;
-  private String name;
-  private string address; 
-  private Date dateOfJoining;
-  //Getters & Setters for all the private attributes
-}
+@ul[list-less-items]
+-S-Single Responsibility
+-O-Open-close
+-L-Liskov substitution principle
+-I-Interface segregation principle
+-D-Dependencies inversion principle
+@ulend
+---?code=assets/Java/01-Employee.java&lang=java
+---?code=assets/Java/02-HRPromotions.java&lang=java
+---?code=assets/Java/03-FinITCalculations.java&lang=java
+---?code=assets/Java/04-EmployeeClean.java&lang=java
+
 ---
 @title[Customize Slide Layout]
 
