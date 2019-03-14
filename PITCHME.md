@@ -1,13 +1,15 @@
 
 ## S-O-L-I-D
 ---
+@snap[east span-55]
 @ul[list-many-items]
--S-Single Responsibility
--O-Open-close
--L-Liskov substitution principle
--I-Interface segregation principle
--D-Dependencies inversion principle
+- S-Single Responsibility
+- O-Open-close
+- L-Liskov substitution principle
+- I-Interface segregation principle
+- D-Dependencies inversion principle
 @ulend
+@snapend
 ---?code=assets/Java/01-Employee.java&lang=java
 ---?code=assets/Java/02-HRPromotions.java&lang=java
 ---?code=assets/Java/03-FinITCalculations.java&lang=java
