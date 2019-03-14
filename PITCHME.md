@@ -1,7 +1,7 @@
 
-## S-O-L-I-D
+# S-O-L-I-D
 ---
-@snap[east span-55]
+@snap[span-55]
 @ul[list-many-items]
 - S-Single Responsibility
 - O-Open-close
