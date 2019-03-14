@@ -16,7 +16,7 @@
 @[9-11](Bad method nr2)
 ---?code=assets/Java/02-HRPromotions.java&lang=java
 ---?code=assets/Java/03-FinITCalculations.java&lang=java
----?code=assets/Java/04-EmployeeClean.java&lang=java
+---?code=assets/Java/04-EmployeeClean.java&lang=java(Clean class with less responsibility)
 ---
 
 @snap[west span-50]
