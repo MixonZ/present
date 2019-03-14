@@ -14,12 +14,10 @@
 @[1-5](Simple Employee class)
 @[6-8](Bad method nr1)
 @[9-11](Bad method nr2)
-@[1-13]
 ---?code=assets/Java/02-HRPromotions.java&lang=java
 ---?code=assets/Java/03-FinITCalculations.java&lang=java
 ---?code=assets/Java/04-EmployeeClean.java&lang=java
-
-@title[Customize Slide Layout]
+---
 
 @snap[west span-50]
 ## Customize Slide Content Layout
