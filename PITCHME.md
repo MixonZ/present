@@ -1,11 +1,47 @@
-# Let's Get Started
-
----
 
 ## Add Some Slide Candy
 
-![](assets/img/presentation.png)
+public class Employee{
+  private String employeeId;
+  private String name;
+  private string address; 
+  private Date dateOfJoining;
+  public boolean isPromotionDueThisYear(){
+    //promotion logic implementation
+  }
+  public Double calcIncomeTaxForCurrentYear(){
+    //income tax logic implementation
+  }
+  //Getters & Setters for all the private attributes
+}
 
+---?color=#333
+@code[Java zoom-9](assets/Java/Java.java)
+
+@[1-4]
+@[5-7]
+@[9-10]
+@[1-13]
+---
+public class HRPromotions{
+  public boolean isPromotionDueThisYear(Employee emp){
+    //promotion logic implementation using the employee information passed
+  }
+}
+---
+public class FinITCalculations{
+  public Double calcIncomeTaxForCurrentYear(Employee emp){
+    //income tax logic implementation using the employee information passed
+  }
+}
+---
+public class Employee{ 
+  private String employeeId;
+  private String name;
+  private string address; 
+  private Date dateOfJoining;
+  //Getters & Setters for all the private attributes
+}
 ---
 @title[Customize Slide Layout]
 
