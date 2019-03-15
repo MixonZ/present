@@ -80,7 +80,6 @@
 @[15-34](classes implementing Orders interface will not know about payments)
 ---
 
-## Dependency<br>Inversion<br>Principle
 
 @snap[north-west]
 Open Closed Principle
