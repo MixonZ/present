@@ -47,12 +47,7 @@
 @quote[Closed for modification](-Clever ppl)
 @snapend
 ---
-## Interface segregation principle
-@ul[list-many-items]
-- Many specific interfaces are better than one general purpose interface
-@ulend
----
----
+
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java&
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
