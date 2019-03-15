@@ -22,11 +22,11 @@
 @snapend
 ---
 
----?code=assets/java/singlesesponsibility/01-Car.java&lang=java
+---?code=assets/java/singleresponsibility/01-Car.java&lang=java
 @[1-5](Simple Car class)
 @[6-8](Bad method nr1)
 @[9-11](Bad method nr2)
-
+---
 ## Todo
 @snap
 @ul[list-many-items]
@@ -34,11 +34,13 @@
 - Change class only when change is needed in that specific task or functionality should this class be changed
 @ulend
 @snapend
----?code=assets/java/singlesesponsibility/02-Autonomous.java&lang=java&Title=Good
+---
+---?code=assets/java/singleresponsibility/02-Autonomous.java&lang=java&Title=Good
 
----?code=assets/java/singlesesponsibility/03-FuelEconomy.java&lang=java&Title=Good
+---?code=assets/java/singleresponsibility/03-FuelEconomy.java&lang=java&Title=Good
 
----?code=assets/java/singlesesponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
+---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
+---
 ##OpenClosed
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
@@ -50,6 +52,7 @@
 @[1-3](interface)
 @[5-18](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
+---
 ##Liskov substitution principle
 ---
 ##Interface Segregation Principle
