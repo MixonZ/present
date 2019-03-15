@@ -44,7 +44,7 @@
 ---
 ## @color[#ffc34d](OpenClosed)
 ---
----?code=assets/java/openclose/01-Rectangle.java&lang=java&color=linear-gradient(to top, #93a5cf, #e4efe9)
+---?code=assets/java/openclose/01-Rectangle.java&lang=java&color=linear-gradient(to center,  #002533, #00131a)
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
 ---?code=assets/java/openclose/04-AreaCalculator.java&lang=java
