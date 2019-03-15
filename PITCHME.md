@@ -1,7 +1,6 @@
----?color=linear-gradient(to left,  #141e30, #243b55)
+---
 # @color[#ffc34d](S-O-L-I-D)
----?color=linear-gradient(to left,  #141e30, #243b55)
-
+---
 @ul[list-many-items]
 - Single Responsibility
 - Open-close
@@ -10,7 +9,7 @@
 - Dependencies inversion principle
 @ulend
 
----?color=linear-gradient(to left,  #141e30, #243b55)
+---
 @snap[west]
 @ul[list-many-items]
 ## @color[#ffc34d](Single Responsibility principles)
@@ -24,7 +23,7 @@
 @[1-5](Simple Car class)
 @[7-9](Bad method nr1)
 @[11-13](Bad method nr2)
----?color=linear-gradient(to left,  #141e30, #243b55)
+---
 @snap[west]
 ## To@color[#ffc34d](do)
 @ul[list-many-items]
@@ -52,20 +51,30 @@
 @[1-3](interface)
 @[5-20](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
----?color=linear-gradient(to left,  #141e30, #243b55)
-## Liskov substitution principle
----?color=linear-gradient(to left,  #141e30, #243b55)
-## Interface segregation principle
----?color=linear-gradient(to left,  #141e30, #243b55)
+---
+## @color[#ffc34d](Liskov Substitution principle)
+@ul[list-many-items]
+- The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly
+- Derived classes must be substitutable for the base class
+@ulend
+---
+## To@color[#ffc34d](do)
+@ul[list-many-items]
+- Check if implemented methods for interface are used
+- Create specific interface for specific class
+@ulend
+---
+## @color[#ffc34d](Interface segregation principle)
+---
 @snap[midpoint]
 @quote[Many specific interfaces are better than one general purpose interface.](-Few students)
 @snapend
 ---
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&lang=java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&lang=java&Title=Bad
----color=linear-gradient(to midpoint,  #141e30, #243b55)
+---
 @snap[midpoint]
-## Todo
+## To@color[#ffc34d](do)
 @ul[list-many-items]
 - Avoid creating one big interface
 - Split interface in parts so every specific interface is responsible for one type of action
@@ -78,23 +87,22 @@
 @[1-13](classes implementing Payment interface will not know about orders)
 @[15-34](classes implementing Orders interface will not know about payments)
 
----?color=linear-gradient(to left,  #141e30, #243b55)
+---
 ## @color[#ffc34d](Dependency Inversion Principle)
 @ul[list-many-items]
 - High-level and low-level modules both depend on abstraction
 - Abstraction should not depend on details. Details should not depend on abstraction.
 @ulend
----?color=linear-gradient(to left,  #141e30, #243b55)
-## Todo
+---
+## To@color[#ffc34d](do)
 @ul[list-many-items]
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
 - Follow business logic when creating classes and interfaces
 @ulend
----?color=linear-gradient(to left,  #141e30, #243b55)
+---
 @snap[north-west span-40]
 Open Closed Principle
 @snapend
-
 
 @snap[north-east span-40]
 Liskov substitution principle
