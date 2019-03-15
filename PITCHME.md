@@ -26,7 +26,7 @@
 @[1-5](Simple Car class)
 @[7-9](Bad method nr1)
 @[11-13](Bad method nr2)
-
+---
 ## Todo
 @snap[westspan-55]
 @ul[list-many-items]
@@ -42,7 +42,7 @@
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
 ## OpenClosed
-
+---
 
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
