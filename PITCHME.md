@@ -53,9 +53,9 @@
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
 ---
 ## @color[#ffc34d](Liskov Substitution principle)
-@ul[list-many-items]
-- The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly
-- Derived classes must be substitutable for the base class
+
+@quote[The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly](-Few students)
+@quote[Derived classes must be substitutable for the base class](-Few students)
 @ulend
 ---
 ## To@color[#ffc34d](do)
@@ -88,28 +88,19 @@
 @[15-34](classes implementing Orders interface will not know about payments)
 
 ---
+@snap[north]
 ## @color[#ffc34d](Dependency Inversion Principle)
-@ul[list-many-items]
-- High-level and low-level modules both depend on abstraction
-- Abstraction should not depend on details. Details should not depend on abstraction.
-@ulend
+@snapend
+@snap[west span-40]
+@quote[High-level and low-level modules both depend on abstraction](-Few students)
+@snapend
+@snap[east span-40]
+@quote[Abstraction should not depend on details. Details should not depend on abstraction.](Few students)
+@snapend
 ---
 ## To@color[#ffc34d](do)
 @ul[list-many-items]
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
 - Follow business logic when creating classes and interfaces
 @ulend
----
-@snap[north-west span-40]
-Open Closed Principle
-@snapend
-
-@snap[north-east span-40]
-Liskov substitution principle
-@snapend
-
-@snap[midpoint]
-@color[#ffc34d](Dependency inversion principle)
-@snapend
-
 ---
