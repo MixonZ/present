@@ -111,6 +111,14 @@
 @quote[Abstraction should not depend on details. Details should not depend on abstraction.](Few students)
 @snapend
 ---
+---?code=assets/java/dependencyinversionprinciple/01-BackEndDev.java&lang=java
+---?code=assets/java/dependencyinversionprinciple/02-FrontEndDev.java&lang=java
+---?code=assets/java/dependencyinversionprinciple/03-Project.java&lang=java
+---?code=assets/java/dependencyinversionprinciple/04-DeveloperInterface.java&lang=java
+---?code=assets/java/dependencyinversionprinciple/05-BackEndDev.java&lang=java
+---?code=assets/java/dependencyinversionprinciple/06-FrontEndDev.java&lang=java
+---?code=assets/java/dependencyinversionprinciple/07-Project.java&lang=java
+
 #### To@color[#ffc34d](do)
 @ul[list-many-items]
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
