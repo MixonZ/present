@@ -1,8 +1,7 @@
 
-# S-O-L-I-D
+# @color[#ffc34d](S-O-L-I-D)
 ---
 
-@snap[span-55]
 @ul[list-many-items]
 - Single Responsibility
 - Open-close
@@ -10,7 +9,6 @@
 - Interface segregation principle
 - Dependencies inversion principle
 @ulend
-@snapend
 
 ---
 @snap[west]
