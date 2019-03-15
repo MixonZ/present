@@ -39,7 +39,19 @@
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
 ---
-## @color[#ffc34d](OpenClosed)
+## @color[#ffc34d](Open/Closed principles)
+@snap[west span-40]
+@quote[Open for extension](-Clever ppl)
+@snapend
+@snap[east span-40]
+@quote[Closed for modification](-Clever ppl)
+@snapend
+---
+## Interface segregation principle
+@ul[list-many-items]
+- Many specific interfaces are better than one general purpose interface
+@ulend
+---
 ---
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java&
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
@@ -52,19 +64,19 @@
 @[5-20](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
 ---
-## @color[#ffc34d](Liskov Substitution principle)
+### @color[#ffc34d](Liskov Substitution principle)
 
 @quote[The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly](-Few students)
 @quote[Derived classes must be substitutable for the base class](-Few students)
 @ulend
 ---
-## To@color[#ffc34d](do)
+#### To@color[#ffc34d](do)
 @ul[list-many-items]
 - Check if implemented methods for interface are used
 - Create specific interface for specific class
 @ulend
 ---
-## @color[#ffc34d](Interface segregation principle)
+### @color[#ffc34d](Interface segregation principle)
 ---
 @snap[midpoint]
 @quote[Many specific interfaces are better than one general purpose interface.](-Few students)
@@ -74,7 +86,7 @@
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&lang=java&Title=Bad
 ---
 @snap[midpoint]
-## To@color[#ffc34d](do)
+#### To@color[#ffc34d](do)
 @ul[list-many-items]
 - Avoid creating one big interface
 - Split interface in parts so every specific interface is responsible for one type of action
@@ -88,8 +100,8 @@
 @[15-34](classes implementing Orders interface will not know about payments)
 
 ---
-@snap[north]
-## @color[#ffc34d](Dependency Inversion Principle)
+@snap[north span-100]
+### @color[#ffc34d](Dependency Inversion Principle)
 @snapend
 @snap[west span-40]
 @quote[High-level and low-level modules both depend on abstraction](-Few students)
@@ -98,7 +110,7 @@
 @quote[Abstraction should not depend on details. Details should not depend on abstraction.](Few students)
 @snapend
 ---
-## To@color[#ffc34d](do)
+#### To@color[#ffc34d](do)
 @ul[list-many-items]
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
 - Follow business logic when creating classes and interfaces
