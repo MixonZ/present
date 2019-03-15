@@ -27,8 +27,8 @@
 @[7-9](Bad method nr1)
 @[11-13](Bad method nr2)
 ---
-## Todo
 @snap[west]
+## Todo
 @ul[list-many-items]
 - One class doing one task
 - Change class only when change is needed in that specific task or functionality should this class be changed
@@ -61,9 +61,8 @@
 ## Interface segregation principle
 ---
 @snap[center]
-@quote[Many specific interfaces are better than one general purpose interface.](Denijs Balodis)
+@quote[Many specific interfaces are better than one general purpose interface.](-Few students)
 @snapend
-
 ---
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad
@@ -79,3 +78,19 @@
 ---?code=assets/java/interfacesegregationprinciple/04-InPersonPaymentImpl.java&Title=Good
 @[1-13](classes implementing Payment interface will not know about orders)
 @[15-34](classes implementing Orders interface will not know about payments)
+---
+
+## Dependency<br>Inversion<br>Principle
+
+@snap[north-west]
+Open Closed Principle
+@snapend
+
+
+@snap[north-east]
+Liskov substitution principle
+@snapend
+
+@snap[midpoint]
+@color[#ffc34d](Dependency inversion principle)
+@snapend
