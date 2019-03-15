@@ -32,7 +32,7 @@
 @ulend
 ---
 
----?code=assets/Java/01-Car.java&lang=java
+---?code=assets/java/singlesesponsibility/01-Car.java&lang=java
 @[1-5](Simple Employee class)
 @[6-8](Bad method nr1)
 @[9-11](Bad method nr2)
