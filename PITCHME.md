@@ -70,12 +70,20 @@
 @snap[east span-47]
 @quote[Derived classes must be substitutable for the base class](-Few students)
 @snapend
+---?code=assets/java/liskovsubstitutionprinciple/01-TransportationDevice.java&lang=java
+---?code=assets/java/liskovsubstitutionprinciple/02-Car.java&lang=java
+---?code=assets/java/liskovsubstitutionprinciple/03-Bicycle.java&lang=java
 ---
 #### To@color[#ffc34d](do)
 @ul[list-many-items]
 - Check if implemented methods for interface are used
 - Create specific interface for specific class
 @ulend
+---?code=assets/java/liskovsubstitutionprinciple/04-TransportationDevice.java&lang=java
+---?code=assets/java/liskovsubstitutionprinciple/05-DeviceNoEngine.java&lang=java
+---?code=assets/java/liskovsubstitutionprinciple/06-DeviceWithEngine.java&lang=java
+---?code=assets/java/liskovsubstitutionprinciple/07-Car.java&lang=java
+---?code=assets/java/liskovsubstitutionprinciple/08-Bicycle.java&lang=java
 ---
 ### @color[#ffc34d](Interface segregation principle)
 ---
