@@ -3,5 +3,5 @@ public class Car {
     private String name;
     private string address;
     private Date dateOfJoining;
-    //Getters & Setters for all the private attributes
+        //Getters & Setters for all the private attributes
 }
