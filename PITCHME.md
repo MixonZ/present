@@ -20,14 +20,14 @@
 @[1-5](Simple Employee class)
 @[6-8](Bad method nr1)
 @[9-11](Bad method nr2)
----?code=assets/Java/SingleResponsibility/02-HRPromotions.java&lang=java&Title=Good
----?code=assets/Java/SingleResponsibility/03-FinITCalculations.java&lang=java&Title=Good
 ---
 @ul[list-many-items]
 ## Todo
 - One class doing one task
 - Change class only when change is needed in that specific task or functionality should this class be changed
 ---
+---?code=assets/Java/SingleResponsibility/02-HRPromotions.java&lang=java&Title=Good
+---?code=assets/Java/SingleResponsibility/03-FinITCalculations.java&lang=java&Title=Good
 ---?code=assets/Java/SingleResponsibility/04-EmployeeClean.java&lang=java&Title=Single reponsibility example
 
 ---
