@@ -3,11 +3,11 @@
 ---
 @snap[span-55]
 @ul[list-many-items]
-- S-Single Responsibility
-- O-Open-close
-- L-Liskov substitution principle
-- I-Interface segregation principle
-- D-Dependencies inversion principle
+- Single Responsibility
+- Open-close
+- Liskov substitution principle
+- Interface segregation principle
+- Dependencies inversion principle
 @ulend
 @snapend
 ---?code=assets/Java/01-Employee.java&lang=java&Title=Bad
