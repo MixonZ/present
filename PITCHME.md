@@ -94,12 +94,12 @@
 ---
 
 
-@snap[north-20 west span-40]
+@snap[north-90 west span-40]
 Open Closed Principle
 @snapend
 
 
-@snap[north-20 east span-40]
+@snap[north-90 east span-40]
 Liskov substitution principle
 @snapend
 
