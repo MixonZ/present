@@ -29,6 +29,7 @@
 @ul[list-many-items]
 - One class doing one task
 - Change class only when change is needed in that specific task or functionality should this class be changed
+@ulend
 ---
 
 ---?code=assets/java/singlesesponsibility/02-HRPromotions.java&lang=java&Title=Good
@@ -39,7 +40,6 @@
 
 ---
 ##OpenClosed
----
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
@@ -50,11 +50,9 @@
 @[1-3](interface)
 @[5-18](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
----
 ##Liskov substitution principle
 ---
 ##Interface Segregation Principle
----
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/03-PaymentInterface.java&Title=Good
