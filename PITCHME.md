@@ -63,18 +63,20 @@
 @quote[Many specific interfaces are better than one general purpose interface.](-Few students)
 @snapend
 ---
----?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
----?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad
+---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&lang=java&Title=Bad
+---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&lang=java&Title=Bad
 ---
+@snap
 ## Todo
 @ul[list-many-items]
 - Avoid creating one big interface
 - Split interface in parts so every specific interface is responsible for one type of action
 @ulend
----?code=assets/java/interfacesegregationprinciple/03-PaymentInterface.java&Title=Good
+@snapend
+---?code=assets/java/interfacesegregationprinciple/03-PaymentInterface.java&lang=java&Title=Good
 @[1-3](seperate interfaces for less responsibility for each)
 @[5-7](seperate interfaces for less responsibility for each)
----?code=assets/java/interfacesegregationprinciple/04-InPersonPaymentImpl.java&Title=Good
+---?code=assets/java/interfacesegregationprinciple/04-InPersonPaymentImpl.java&lang=java&Title=Good
 @[1-13](classes implementing Payment interface will not know about orders)
 @[15-34](classes implementing Orders interface will not know about payments)
 
