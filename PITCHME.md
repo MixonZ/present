@@ -25,7 +25,7 @@
 @[11-13](Bad method nr2)
 ---
 @snap[west]
-## To@color[#ffc34d](do)
+#### To@color[#ffc34d](do)
 @ul[list-many-items]
 - One class doing one task
 - Change class only when change is needed in that specific task or functionality should this class be changed
@@ -40,12 +40,12 @@
 
 ---
 @snap[north span-100]
-## @color[#ffc34d](Open/Closed principles)
+### @color[#ffc34d](Open/Closed principles)
 @snapend
-@snap[south-west span-40]
+@snap[west span-47]
 @quote[Open for extension](-Clever ppl)
 @snapend
-@snap[south-east span-40]
+@snap[east span-47]
 @quote[Closed for modification](-Clever ppl)
 @snapend
 ---
@@ -64,10 +64,10 @@
 @snap[north span-100]
 ### @color[#ffc34d](Liskov Substitution principle)
 @snapend
-@snap[south-west span-40]
+@snap[west span-47]
 @quote[The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly](-Few students)
 @snapend
-@snap[south-east span-40]
+@snap[east span-47]
 @quote[Derived classes must be substitutable for the base class](-Few students)
 @snapend
 ---
@@ -104,10 +104,10 @@
 @snap[north span-100]
 ### @color[#ffc34d](Dependency Inversion Principle)
 @snapend
-@snap[south-west span-40]
+@snap[west span-40]
 @quote[High-level and low-level modules both depend on abstraction](-Few students)
 @snapend
-@snap[south-east span-40]
+@snap[east span-40]
 @quote[Abstraction should not depend on details. Details should not depend on abstraction.](Few students)
 @snapend
 ---
