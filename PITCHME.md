@@ -55,9 +55,28 @@
 ---
 ##Liskov substitution principle
 ---
-##Interface Segregation Principle
+## Interface segregation principle
+@snap[west span-55]
+@ul[list-many-items]
+- Many specific interfaces are better than one general purpose interface
+@ulend
+@snapend
+---
+## Todo
+@ul[list-many-items]
+- Avoid creating one big interface
+- Split interface in parts so every specific interface is responsible for one type of action
+@ulend
+---
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad
+---
+## Todo
+@ul[list-many-items]
+- Avoid creating one big interface
+- Split interface in parts so every specific interface is responsible for one type of action
+@ulend
+---
 ---?code=assets/java/interfacesegregationprinciple/03-PaymentInterface.java&Title=Good
 @[1-3](seperate interfaces for less responsibility for each)
 @[5-7](seperate interfaces for less responsibility for each)
