@@ -246,7 +246,7 @@ div.docslink a:hover {
   background: black;
   padding: 0px 15px;
   border-radius: 15px;
-  opacity: 0.87 !important;
+  opacity: 0.50 !important;
   font-size: 50% !important;
 }
 
