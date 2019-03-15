@@ -59,14 +59,14 @@
 ---
 ## Interface segregation principle
 ---
-@snap[center]
+@snap[midpoint]
 @quote[Many specific interfaces are better than one general purpose interface.](-Few students)
 @snapend
 ---
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&lang=java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&lang=java&Title=Bad
 ---
-@snap
+@snap[midpoint]
 ## Todo
 @ul[list-many-items]
 - Avoid creating one big interface
