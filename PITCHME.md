@@ -13,7 +13,7 @@
 @snapend
 
 ---
-@snap
+@snap[west span-55]
 @ul[list-many-items]
 ## Single Responsibility principles
 - A class should have only one reason to change
@@ -28,7 +28,7 @@
 @[9-11](Bad method nr2)
 ---
 ## Todo
-@snap
+@snap[westspan-55]
 @ul[list-many-items]
 - One class doing one task
 - Change class only when change is needed in that specific task or functionality should this class be changed
