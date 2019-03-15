@@ -35,9 +35,9 @@
 @ulend
 @snapend
 
----?gist=assets/java/singleresponsibility/02-Autonomous.java&lang=java&Title=Good
+---?code=assets/java/singleresponsibility/02-Autonomous.java&lang=java&Title=Good
 
----?gist=assets/java/singleresponsibility/03-FuelEconomy.java&lang=java&Title=Good
+---?code=assets/java/singleresponsibility/03-FuelEconomy.java&lang=java&Title=Good
 
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
