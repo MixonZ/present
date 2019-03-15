@@ -25,7 +25,7 @@
 ---?code=assets/java/singleresponsibility/01-Car.java&lang=java
 @[1-5](Simple Car class)
 @[7-9](Bad method nr1)
-@font-size[0.9em](@[11-13](Bad method nr2))
+@[11-13](Bad method nr2)
 ---
 @snap[west]
 ## Todo
