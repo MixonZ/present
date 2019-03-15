@@ -92,9 +92,7 @@
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
 - Follow business logic when creating classes and interfaces
 @ulend
----
-
-
+---?color=linear-gradient(to top, #93a5cf, #e4efe9)
 @snap[north-west span-40]
 Open Closed Principle
 @snapend
