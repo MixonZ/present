@@ -1,5 +1,5 @@
-public class AreaCalculator{
-    public double calculateShapeArea(Shape shape){
+public class AreaCalculator {
+    public double calculateShapeArea(Shape shape) {
         return shape.calculateArea();
     }
 }

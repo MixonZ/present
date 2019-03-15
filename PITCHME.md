@@ -24,8 +24,8 @@
 
 ---?code=assets/java/singleresponsibility/01-Car.java&lang=java
 @[1-5](Simple Car class)
-@[6-8](Bad method nr1)
-@[9-11](Bad method nr2)
+@[7-9](Bad method nr1)
+@[11-13](Bad method nr2)
 ---
 ## Todo
 @snap[westspan-55]
@@ -40,16 +40,20 @@
 ---?code=assets/java/singleresponsibility/03-FuelEconomy.java&lang=java&Title=Good
 
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
+
+---
 ##OpenClosed
+---
+
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
 ---?code=assets/java/openclose/04-AreaCalculator.java&lang=java
 @[1-4](modification)
-@[5-8](modification)
+@[6-9](modification)
 ---?code=assets/java/openclose/05-Shape.java&lang=java
 @[1-3](interface)
-@[5-18](shapes)
+@[5-20](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
 ---
 ##Liskov substitution principle
@@ -61,12 +65,7 @@
 - Many specific interfaces are better than one general purpose interface
 @ulend
 @snapend
----
-## Todo
-@ul[list-many-items]
-- Avoid creating one big interface
-- Split interface in parts so every specific interface is responsible for one type of action
-@ulend
+
 ---
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad

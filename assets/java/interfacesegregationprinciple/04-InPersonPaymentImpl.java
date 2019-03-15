@@ -1,34 +1,34 @@
-public class InPersonPayment implements PaymentInterface{
+public class InPersonPayment implements PaymentInterface {
     @Override
-    public void payForOrder{
+    public void payForOrder() {
         //Client pay logic
     }
 }
 
-public class OnlinePayment implements PaymentInterface{
+public class OnlinePayment implements PaymentInterface {
     @Override
-    public void payForOrder{
+    public void payForOrder() {
         //Client pay logic
     }
 }
 
-public class WalkInOrder implements OrderInterface{
+public class WalkInOrder implements OrderInterface {
     @Override
-    public void placeOrder(){
+    public void placeOrder() {
         //Client order logic
     }
 }
 
-public class TelephoneOrder implements OrderInterface{
+public class TelephoneOrder implements OrderInterface {
     @Override
-    public void placeOrder(){
+    public void placeOrder() {
         //Client order logic
     }
 }
 
-public class OnlineOrder implements OrderInterface{
+public class OnlineOrder implements OrderInterface {
     @Override
-    public void placeOrder(){
+    public void placeOrder() {
         //Client order logic
     }
 }

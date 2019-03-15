@@ -1,3 +1,3 @@
-public class Circle{
+public class Circle {
     public double radius;
 }
