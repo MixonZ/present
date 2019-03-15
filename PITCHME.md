@@ -13,7 +13,7 @@
 @snapend
 
 ---
-@snap[west span-55]
+@snap[west]
 @ul[list-many-items]
 ## Single Responsibility principles
 - A class should have only one reason to change
@@ -28,7 +28,7 @@
 @[11-13](Bad method nr2)
 ---
 ## Todo
-@snap[westspan-55]
+@snap[west]
 @ul[list-many-items]
 - One class doing one task
 - Change class only when change is needed in that specific task or functionality should this class be changed
@@ -41,6 +41,7 @@
 
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
+---
 ## OpenClosed
 ---
 
@@ -54,18 +55,16 @@
 @[1-3](interface)
 @[5-20](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
-
+---
 ## Liskov substitution principle
 ---
 ## Interface segregation principle
 ---
-@snap[west span-55]
-@ul[list-many-items]
-- Many specific interfaces are better than one general purpose interface
-@ulend
+@snap[center]
+@quote[Many specific interfaces are better than one general purpose interface.](Denijs Balodis)
 @snapend
 
-
+---
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad
 ---
