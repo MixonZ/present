@@ -10,12 +10,14 @@
 @ulend
 
 ---
-@snap[west]
-@ul[list-many-items]
+@snap[north]
 ## @color[#ffc34d](Single Responsibility principles)
-- A class should have only one reason to change
-- A class should have only one responsibility
-@ulend
+@snapend
+@snap[west span=47]
+@quote[A class should have only one reason to change]()
+@snapend
+@snap[east span=47]
+@quote[A class should have only one responsibility]()
 @snapend
 
 
@@ -54,8 +56,6 @@
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
 ---?code=assets/java/openclose/04-AreaCalculator.java&lang=java
-@[1-4](modification)
-@[6-9](modification)
 ---?code=assets/java/openclose/05-Shape.java&lang=java
 @[1-3](interface)
 @[5-20](shapes)
@@ -85,12 +85,12 @@
 ---?code=assets/java/liskovsubstitutionprinciple/07-Car.java&lang=java
 ---?code=assets/java/liskovsubstitutionprinciple/08-Bicycle.java&lang=java
 ---
+@snap[north span-100]
 ### @color[#ffc34d](Interface segregation principle)
----
+@snapend
 @snap[midpoint]
 @quote[Many specific interfaces are better than one general purpose interface.](-Few students)
 @snapend
----
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&lang=java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&lang=java&Title=Bad
 ---
@@ -127,9 +127,10 @@
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
 - Follow business logic when creating classes and interfaces
 @ulend
----
 ---?code=assets/java/dependencyinversionprinciple/04-DeveloperInterface.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/05-BackEndDev.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/06-FrontEndDev.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/07-Project.java&lang=java
+---
+###Thnx for your attention @fa[smile-beam]
 
