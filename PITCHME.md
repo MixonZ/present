@@ -32,11 +32,16 @@
 @ulend
 ---
 
----?code=assets/java/singlesesponsibility/02-HRPromotions.java&lang=java&Title=Good
+---?code=assets/Java/01-Car.java&lang=java
+@[1-5](Simple Employee class)
+@[6-8](Bad method nr1)
+@[9-11](Bad method nr2)
 
----?code=assets/java/singlesesponsibility/03-FinITCalculations.java&lang=java&Title=Good
+---?code=assets/java/singlesesponsibility/02-Autonomous.java&lang=java&Title=Good
 
----?code=assets/java/singlesesponsibility/04-EmployeeClean.java&lang=java&Title=Single reponsibility example
+---?code=assets/java/singlesesponsibility/03-FuelEconomy.java&lang=java&Title=Good
+
+---?code=assets/java/singlesesponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
 ---
 ##OpenClosed
