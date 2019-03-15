@@ -1,3 +1,4 @@
+/* Intro Template Styles */
 
 .byline {
   letter-spacing: 0.1em;
@@ -10,7 +11,7 @@
 }
 
 .split-screen-list li {
-  margin:0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .split-screen-list li::before {
@@ -21,7 +22,7 @@
 /* List-Content Template Styles */
 
 .list-content-concise li {
-  margin:0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .list-content-verbose ul {
@@ -30,7 +31,7 @@
 
 .list-content-verbose li {
   font-size: 0.8em;
-  margin:0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .list-bullets-black li::before {
@@ -88,7 +89,7 @@
 .header-footer-list-shrink li {
   color: white;
   font-size: 0.7em;
-  margin:0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 /** Quotation Template Styles ***/
@@ -101,6 +102,20 @@
 
 .announce-coming-soon {
   font-size: 6.5em !important;
+}
+
+.announce-quiz {
+  font-size: 6.5em !important;
+  text-transform: uppercase;
+}
+
+.announce-exercise {
+  font-size: 6.5em !important;
+  text-transform: uppercase;
+}
+
+.announce-section-title {
+  font-size: 3em !important;
 }
 
 /** About Template Styles **/
@@ -234,20 +249,26 @@ div.docslink a:hover {
   width: 100%;
   padding: 17px;
   border-radius: 17px;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .reveal p span.slide-title {
   display: none;
 }
 
-/*.reveal .slides section .code-presenting-annotation {*/
-  /*color: white;*/
-  /*background: black;*/
-  /*padding: 0px 15px;*/
-  /*border-radius: 15px;*/
-  /*opacity: 0.95 !important;*/
-  /*font-size: 45% !important;*/
-/*}*/
+.reveal .slides section .code-presenting-annotation {
+  color: white;
+  background: black;
+  padding: 0px 15px;
+  border-radius: 15px;
+  opacity: 0.75 !important;
+  font-size: 50% !important;
+}
 
+.img-w-50 img {
+  width: 50%;
+}
 
+.img-pt-3 img {
+  padding-top: 3em;
+}
