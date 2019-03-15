@@ -39,11 +39,13 @@
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
 ---
+@snap[north span-100]
 ## @color[#ffc34d](Open/Closed principles)
-@snap[west span-40]
+@snapend
+@snap[south-west span-40]
 @quote[Open for extension](-Clever ppl)
 @snapend
-@snap[east span-40]
+@snap[south-east span-40]
 @quote[Closed for modification](-Clever ppl)
 @snapend
 ---
@@ -59,11 +61,15 @@
 @[5-20](shapes)
 ---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
 ---
+@snap[north span-100]
 ### @color[#ffc34d](Liskov Substitution principle)
-
+@snapend
+@snap[south-west span-40]
 @quote[The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly](-Few students)
+@snapend
+@snap[south-east span-40]
 @quote[Derived classes must be substitutable for the base class](-Few students)
-@ulend
+@snapend
 ---
 #### To@color[#ffc34d](do)
 @ul[list-many-items]
@@ -98,10 +104,10 @@
 @snap[north span-100]
 ### @color[#ffc34d](Dependency Inversion Principle)
 @snapend
-@snap[west span-40]
+@snap[south-west span-40]
 @quote[High-level and low-level modules both depend on abstraction](-Few students)
 @snapend
-@snap[east span-40]
+@snap[south-east span-40]
 @quote[Abstraction should not depend on details. Details should not depend on abstraction.](Few students)
 @snapend
 ---
