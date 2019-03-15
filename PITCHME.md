@@ -10,14 +10,16 @@
 @ulend
 
 ---
-@snap[north]
+@snap[north span=100]
 ## @color[#ffc34d](Single Responsibility principles)
 @snapend
+
 @snap[west span=47]
-@quote[A class should have only one reason to change]()
+@quote[A class should have only one reason to change](-Guy next door)
 @snapend
+
 @snap[east span=47]
-@quote[A class should have only one responsibility]()
+@quote[A class should have only one responsibility](-Mom)
 @snapend
 
 
@@ -132,5 +134,5 @@
 ---?code=assets/java/dependencyinversionprinciple/06-FrontEndDev.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/07-Project.java&lang=java
 ---
-###Thnx for your attention @fa[smile-beam]
+### Thnx for your attention! @fa[smile-beam]
 
