@@ -11,14 +11,14 @@
 
 ---
 @snap[north span=100]
-## @color[#ffc34d](Single Responsibility principles)
+### @color[#ffc34d](Single Responsibility principles)
 @snapend
 
-@snap[south-west span-47]
+@snap[west span-47]
 @quote[A class should have only one reason to change](-Guy next door)
 @snapend
 
-@snap[south-east span-47]
+@snap[east span-47]
 @quote[A class should have only one responsibility](-Mom)
 @snapend
 
