@@ -15,7 +15,7 @@
 ---
 @snap[west]
 @ul[list-many-items]
-## Single Responsibility principles
+## @color[#ffc34d](Single Responsibility principles)
 - A class should have only one reason to change
 - A class should have only one responsibility
 @ulend
@@ -42,9 +42,8 @@
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 
 ---
-## OpenClosed
+## @color[#ffc34d](OpenClosed)
 ---
-
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
@@ -80,7 +79,7 @@
 @[15-34](classes implementing Orders interface will not know about payments)
 
 ---
-## Dependency Inversion Principle
+## @color[#ffc34d](Dependency Inversion Principle)
 @ul[list-many-items]
 - High-level and low-level modules both depend on abstraction
 - Abstraction should not depend on details. Details should not depend on abstraction.
@@ -94,12 +93,12 @@
 ---
 
 
-@snap[north-90 west span-40]
+@snap[north-west span-40]
 Open Closed Principle
 @snapend
 
 
-@snap[north-90 east span-40]
+@snap[north-east span-40]
 Liskov substitution principle
 @snapend
 
