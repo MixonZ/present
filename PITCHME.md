@@ -113,7 +113,7 @@
 ---?code=assets/java/dependencyinversionprinciple/01-BackEndDev.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/02-FrontEndDev.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/03-Project.java&lang=java
-
+---
 #### To@color[#ffc34d](do)
 @ul[list-many-items]
 - Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
