@@ -78,6 +78,19 @@
 ---?code=assets/java/interfacesegregationprinciple/04-InPersonPaymentImpl.java&Title=Good
 @[1-13](classes implementing Payment interface will not know about orders)
 @[15-34](classes implementing Orders interface will not know about payments)
+
+---
+## Dependency Inversion Principle
+@ul[list-many-items]
+- High-level and low-level modules both depend on abstraction
+- Abstraction should not depend on details. Details should not depend on abstraction.
+@ulend
+---
+## Todo
+@ul[list-many-items]
+- Apply both and @color[#ffc34d](Open/Closed principle) and @color[#ffc34d](Liskov Substitution principle)
+- Follow business logic when creating classes and interfaces
+@ulend
 ---
 
 
@@ -93,3 +106,5 @@ Liskov substitution principle
 @snap[midpoint]
 @color[#ffc34d](Dependency inversion principle)
 @snapend
+
+---
