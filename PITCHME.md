@@ -42,6 +42,7 @@
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
 ---
 ##OpenClosed
+---
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
@@ -56,6 +57,7 @@
 ##Liskov substitution principle
 ---
 ## Interface segregation principle
+---
 @snap[west span-55]
 @ul[list-many-items]
 - Many specific interfaces are better than one general purpose interface
