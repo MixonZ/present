@@ -31,23 +31,35 @@
 - Change class only when change is needed in that specific task or functionality should this class be changed
 ---
 
----?code=assets/Java/SingleResponsibility/02-HRPromotions.java&lang=java&Title=Good
+---?code=assets/java/singlesesponsibility/02-HRPromotions.java&lang=java&Title=Good
 
----?code=assets/Java/SingleResponsibility/03-FinITCalculations.java&lang=java&Title=Good
+---?code=assets/java/singlesesponsibility/03-FinITCalculations.java&lang=java&Title=Good
 
----?code=assets/Java/SingleResponsibility/04-EmployeeClean.java&lang=java&Title=Single reponsibility example
-
----
+---?code=assets/java/singlesesponsibility/04-EmployeeClean.java&lang=java&Title=Single reponsibility example
 
 ---
----?code=assets/Java/OpenClose/01-Rectangle.java&lang=java
----?code=assets/Java/OpenClose/02-AreaCalculator.java
----?code=assets/Java/OpenClose/03-Circle.java
----?code=assets/Java/OpenClose/04-AreaCalculator.java
+##OpenClosed
+---
+---?code=assets/java/openclose/01-Rectangle.java&lang=java
+---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
+---?code=assets/java/openclose/03-Circle.java&lang=java
+---?code=assets/java/openclose/04-AreaCalculator.java&lang=java
 @[1-4](modification)
 @[5-8](modification)
----?code=assets/Java/OpenClose/05-Shape.java
+---?code=assets/java/openclose/05-Shape.java&lang=java
 @[1-3](interface)
 @[5-18](shapes)
----?code=assets/Java/OpenClose/06-AreaCalculator.java
-
+---?code=assets/java/openclose/06-AreaCalculator.java&lang=java
+---
+##Liskov substitution principle
+---
+##Interface Segregation Principle
+---
+---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&Title=Bad
+---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&Title=Bad
+---?code=assets/java/interfacesegregationprinciple/03-PaymentInterface.java&Title=Good
+@[1-3](seperate interfaces for less responsibility for each)
+@[5-7](seperate interfaces for less responsibility for each)
+---?code=assets/java/interfacesegregationprinciple/04-InPersonPaymentImpl.java&Title=Good
+@[1-13](classes implementing Payment interface will not know about orders)
+@[15-34](classes implementing Orders interface will not know about payments)

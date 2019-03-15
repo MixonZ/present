@@ -1,5 +1,5 @@
-public class HRPromotions{
-    public boolean isPromotionDueThisYear(Employee emp){
+public class Autonomous{
+    public boolean selfDriving(Car car){
         //promotion logic implementation using the employee information passed
     }
 }

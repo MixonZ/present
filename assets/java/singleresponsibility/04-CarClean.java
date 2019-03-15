@@ -1,5 +1,5 @@
-public class Employee{
-    private String employeeId;
+public class Car{
+    private String win;
     private String name;
     private string address;
     private Date dateOfJoining;
