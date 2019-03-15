@@ -40,7 +40,7 @@
 ---?code=assets/java/singleresponsibility/03-FuelEconomy.java&lang=java&Title=Good
 
 ---?code=assets/java/singleresponsibility/04-CarClean.java&lang=java&Title=Single reponsibility example
----##OpenClosed
+##OpenClosed
 ---?code=assets/java/openclose/01-Rectangle.java&lang=java
 ---?code=assets/java/openclose/02-AreaCalculator.java&lang=java
 ---?code=assets/java/openclose/03-Circle.java&lang=java
