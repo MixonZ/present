@@ -134,5 +134,5 @@
 ---?code=assets/java/dependencyinversionprinciple/06-FrontEndDev.java&lang=java
 ---?code=assets/java/dependencyinversionprinciple/07-Project.java&lang=java
 ---
-### Thnx for your attention! @fa[smile-beam fa-spin]
+### @color[#ffc34d](Thnx) for your attention! @fa[smile-beam fa-spin]
 
