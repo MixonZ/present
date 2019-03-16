@@ -1,5 +1,4 @@
-class Car extends TransportationDevice
+class Car extends TransportationDevice 
 {
-    @Override
     void startEngine() { ... }
 }
