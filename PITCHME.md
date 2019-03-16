@@ -15,11 +15,11 @@
 @snapend
 
 @snap[south-west span-47]
-@quote[A class should have only one reason to change](-Guy next door)
+@quote[A class should have only one reason to change](Guy next door)
 @snapend
 
 @snap[south-east span-47]
-@quote[A class should have only one responsibility](-Mom)
+@quote[A class should have only one responsibility](Mom)
 @snapend
 
 
@@ -47,10 +47,10 @@
 ### @color[#ffc34d](Open/Closed principles)
 @snapend
 @snap[west span-47]
-@quote[Open for extension](-Clever ppl)
+@quote[Open for extension](Clever ppl)
 @snapend
 @snap[east span-47]
-@quote[Closed for modification](-Clever ppl)
+@quote[Closed for modification](Clever ppl)
 @snapend
 ---
 
@@ -67,10 +67,10 @@
 ### @color[#ffc34d](Liskov Substitution principle)
 @snapend
 @snap[west span-47]
-@quote[The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly](-Few students)
+@quote[The Liskov Substitution Principle is a way of ensuring that inheritance is used correctly](Few students)
 @snapend
 @snap[east span-47]
-@quote[Derived classes must be substitutable for the base class](-Few students)
+@quote[Derived classes must be substitutable for the base class](Few students)
 @snapend
 ---?code=assets/java/liskovsubstitutionprinciple/01-TransportationDevice.java&lang=java
 ---?code=assets/java/liskovsubstitutionprinciple/02-Car.java&lang=java
@@ -91,7 +91,7 @@
 ### @color[#ffc34d](Interface segregation principle)
 @snapend
 @snap[midpoint]
-@quote[Many specific interfaces are better than one general purpose interface.](-Few students)
+@quote[Many specific interfaces are better than one general purpose interface.](Few students)
 @snapend
 ---?code=assets/java/interfacesegregationprinciple/01-RestaurantInterface.java&lang=java&Title=Bad
 ---?code=assets/java/interfacesegregationprinciple/02-OnlineClientImpl.java&lang=java&Title=Bad
@@ -115,7 +115,7 @@
 ### @color[#ffc34d](Dependency Inversion Principle)
 @snapend
 @snap[west span-40]
-@quote[High-level and low-level modules both depend on abstraction](-Few students)
+@quote[High-level and low-level modules both depend on abstraction](Few students)
 @snapend
 @snap[east span-40]
 @quote[Abstraction should not depend on details. Details should not depend on abstraction.](Few students)
