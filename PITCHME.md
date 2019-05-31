@@ -24,7 +24,7 @@
 @snapend
 @ul[list-many-items]
 - A lot of work
-- Knowledge more than you can consume (and there's a reason)
+- Knowledge more than you can consume
 - Sleepless nights
 - More work
 @ulend
@@ -38,7 +38,7 @@
 @snapend
 @ul[list-many-items]
 - ### @color[#ffc34d]("Dragāt")
-- Don't be scared to brake things
+- Don't be scared to brake things (Dropping database is not what I meant)
 - Question everything
 - Always try new things @color[#ffc34d]((Constantly))
 @ulend
