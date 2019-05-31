@@ -1,12 +1,10 @@
 ---
-# @color[#ffc34d](S-O-L-I-D)
+# @color[#ffc34d](Sveiki)
 ---
 @ul[list-many-items]
-- Single Responsibility
-- Open-close
-- Liskov substitution principle
-- Interface segregation principle
-- Dependencies inversion principle
+- Mikus Zarins
+- Work for: @color[#ffc34d](Expert-quality)
+- Work as: @color[#ffc34d](Backend developer)
 @ulend
 
 ---
