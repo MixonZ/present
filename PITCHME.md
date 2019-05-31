@@ -3,15 +3,23 @@
 ---
 @ul[list-many-items]
 - Mikus Zarins
-- Work for: @color[#ffc34d](Expert-quality)
-- Work as: @color[#ffc34d](Backend developer)
+- How did I find Codelex
+- Finished Codelex on end of April
 @ulend
 
 ---
+
 @snap[north span=100]
 ### @color[#ffc34d](Single Responsibility principles)
 @snapend
+- Work for: @color[#ffc34d](Expert-quality)
+- Work as: @color[#ffc34d](Backend developer)
 
+
+---?code=assets/java/singleresponsibility/01-Car.java&lang=java
+@[1-5](Simple Car class)
+@[7-9](Bad method nr1)
+@[11-13](Bad method nr2)
 @snap[south-west span-47]
 @quote[A class should have only one reason to change](Guy next door)
 @snapend
@@ -19,12 +27,6 @@
 @snap[south-east span-47]
 @quote[A class should have only one responsibility](Mom)
 @snapend
-
-
----?code=assets/java/singleresponsibility/01-Car.java&lang=java
-@[1-5](Simple Car class)
-@[7-9](Bad method nr1)
-@[11-13](Bad method nr2)
 ---
 @snap[west]
 #### To@color[#ffc34d](do)
