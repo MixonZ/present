@@ -18,16 +18,22 @@
 - Still don't know what I'm doing
 @ulend
 
----?image=https://i.redd.it/3mofa9mq3i131.jpg&size=contain
 
 # @color[#ffc34d](What to expect?)
 @ul[list-many-items]
 - A lot of work.
 - More work.
-- Knowledge more than you can consume. (and theres a reason)
+- Knowledge more than you can consume. (and there's a reason)
+- Sleepless nights
 @ulend
 
 ---
+---?image=https://i.redd.it/3mofa9mq3i131.jpg&size=contain
+
+---
+@snap[center span-100]
+@quote[May the odds be ever in your favor](me)
+@snapend
 
 ---?code=assets/java/singleresponsibility/01-Car.java&lang=java
 @[1-5](Simple Car class)
