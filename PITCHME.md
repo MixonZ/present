@@ -18,7 +18,7 @@
 - Still don't know what I'm doing
 @ulend
 
----?image=https://i.redd.it/3mofa9mq3i131.jpg
+---?image=https://i.redd.it/3mofa9mq3i131.jpg&size=contain
 
 # @color[#ffc34d](What to expect?)
 @ul[list-many-items]
