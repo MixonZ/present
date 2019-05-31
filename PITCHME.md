@@ -1,6 +1,7 @@
----
-# @color[#ffc34d](Sveiki)
----
+
+@snap[north span=100]
+## @color[#ffc34d](Welcome)
+@snapend
 @ul[list-many-items]
 - Mikus Zarins
 - How did I find Codelex
@@ -37,10 +38,10 @@
 ### @color[#ffc34d](Suggestions)
 @snapend
 @ul[list-many-items]
-- ### @color[#ffc34d]("Dragāt")
+- @color[#ffc34d]("Dragāt")
 - Don't be scared to brake things (Dropping database is not what I meant)
 - Question everything
-- Always try new things @color[#ffc34d]((Constantly))
+- Always try new things... @color[#ffc34d](Constantly)
 @ulend
 
 ---
