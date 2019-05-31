@@ -18,6 +18,17 @@
 - Still don't know what I'm doing
 @ulend
 
+---?image=https://i.redd.it/3mofa9mq3i131.jpg
+
+# @color[#ffc34d](What to expect?)
+@ul[list-many-items]
+- A lot of work.
+- More work.
+- Knowledge more than you can consume. (and theres a reason)
+@ulend
+
+---
+
 ---?code=assets/java/singleresponsibility/01-Car.java&lang=java
 @[1-5](Simple Car class)
 @[7-9](Bad method nr1)
