@@ -10,11 +10,13 @@
 ---
 
 @snap[north span=100]
-### @color[#ffc34d](Single Responsibility principles)
+### @color[#ffc34d](My job:)
 @snapend
 - Work for: @color[#ffc34d](Expert-quality)
 - Work as: @color[#ffc34d](Backend developer)
-
+@ul[list-many-items]
+- Still don't know what I'm doing
+@ulend
 
 ---?code=assets/java/singleresponsibility/01-Car.java&lang=java
 @[1-5](Simple Car class)
