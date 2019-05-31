@@ -5,7 +5,7 @@
 @ul[list-many-items]
 - Mikus Zarins
 - How did I find Codelex
-- Finished Codelex on end of April
+- Started on January, Finished in April
 @ulend
 
 ---
