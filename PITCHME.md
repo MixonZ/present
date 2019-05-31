@@ -34,9 +34,8 @@
 
 ---
 @snap[north span=100]
-### @color[#ffc34d]()
+### @color[#ffc34d](Suggestions)
 @snapend
-
 @ul[list-many-items]
 - ### @color[#ffc34d]("Dragāt")
 - Don't be scared to brake things
@@ -45,12 +44,9 @@
 @ulend
 
 ---
-@snap[center span-100]
+@snap[northe span-100]
 @quote[May the odds be ever in your favor](me)
 @snapend
-
----
-
 ### @color[#ffc34d](Thnx) for your attention and welcome to your new home! @fa[smile-beam fa-spin]
 
 
